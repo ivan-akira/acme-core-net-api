@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.Console", "Acme.Console\Acme.Console.csproj", "{5FBB5BDE-DD36-4622-A72D-396824F0359D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.UnitTest", "Acme.UnitTest\Acme.UnitTest.csproj", "{8C3E78B0-D07F-4412-8C8E-9F10D1E12C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.Transaction.Action", "Acme.Transaction.Action\Acme.Transaction.Action.csproj", "{ED7DE496-AC73-42C6-9BA2-30CC461BE812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.API.Interface", "Acme.API.Interface\Acme.API.Interface.csproj", "{9A5D4DD5-5124-4119-B052-D21C8F3D6A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.Entities", "Acme.Entities\Acme.Entities.csproj", "{65501EB4-9BD4-4AA2-8266-EAB3B5F9301E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.API.Proxy", "Acme.API.Proxy\Acme.API.Proxy.csproj", "{F81C83D5-4198-486C-A0D6-12CD19DD8F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.Constant", "Acme.Constant\Acme.Constant.csproj", "{3CE6AD69-CDCC-4FCB-9BC5-86B2AFFFDDB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBB5BDE-DD36-4622-A72D-396824F0359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBB5BDE-DD36-4622-A72D-396824F0359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBB5BDE-DD36-4622-A72D-396824F0359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBB5BDE-DD36-4622-A72D-396824F0359D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3E78B0-D07F-4412-8C8E-9F10D1E12C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3E78B0-D07F-4412-8C8E-9F10D1E12C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3E78B0-D07F-4412-8C8E-9F10D1E12C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3E78B0-D07F-4412-8C8E-9F10D1E12C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7DE496-AC73-42C6-9BA2-30CC461BE812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7DE496-AC73-42C6-9BA2-30CC461BE812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7DE496-AC73-42C6-9BA2-30CC461BE812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7DE496-AC73-42C6-9BA2-30CC461BE812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5D4DD5-5124-4119-B052-D21C8F3D6A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5D4DD5-5124-4119-B052-D21C8F3D6A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5D4DD5-5124-4119-B052-D21C8F3D6A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5D4DD5-5124-4119-B052-D21C8F3D6A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65501EB4-9BD4-4AA2-8266-EAB3B5F9301E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65501EB4-9BD4-4AA2-8266-EAB3B5F9301E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65501EB4-9BD4-4AA2-8266-EAB3B5F9301E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65501EB4-9BD4-4AA2-8266-EAB3B5F9301E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81C83D5-4198-486C-A0D6-12CD19DD8F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81C83D5-4198-486C-A0D6-12CD19DD8F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81C83D5-4198-486C-A0D6-12CD19DD8F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81C83D5-4198-486C-A0D6-12CD19DD8F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE6AD69-CDCC-4FCB-9BC5-86B2AFFFDDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE6AD69-CDCC-4FCB-9BC5-86B2AFFFDDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE6AD69-CDCC-4FCB-9BC5-86B2AFFFDDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE6AD69-CDCC-4FCB-9BC5-86B2AFFFDDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3827099E-F6B4-4AEF-9EB2-81A93E009BD1}
+	EndGlobalSection
+EndGlobal
